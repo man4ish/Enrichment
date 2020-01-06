@@ -1,6 +1,5 @@
 import sys
 from scipy.stats import hypergeom
-from collections import defaultdict
 
 gene_feature = {}
 feature_dict = {}
