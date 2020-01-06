@@ -59,7 +59,7 @@ try:
    for feature_key, frequency in featurefreq.items():
        k = frequency
        K = feature_dict[feature_key]
-       prb = hypergeom.sf(k, N, n, K)
+       prb = hypergeom.pmf(k, N, K, n)
 
        print ("Feature Id = " + feature_key + "\tN = " + str(N) + "\tK = " + str(K) + "\tn = " + str(n) + "\tk = " + str(k) + "\tSignificance = " +str(prb))
    fgene.close()
