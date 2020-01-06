@@ -1,6 +1,9 @@
 import sys
 from scipy.stats import hypergeom
 
+if len(sys.argv) < 3:
+   exit("Usage: python feature_enrichment.py <feature association file> <genelist>")
+   
 gene_feature = {}
 feature_dict = {}
 
