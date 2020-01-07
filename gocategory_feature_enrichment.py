@@ -6,9 +6,6 @@ if len(sys.argv) < 5:
 
 go_categoty_term = sys.argv[1]
 
-
-
-go_categoty_file = sys.argv[2]
    
 gocateg = {}
 
